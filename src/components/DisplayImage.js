@@ -1,19 +1,23 @@
 import React from 'react'
-import { Card, CardHeader, CardImg, CardText, Modal, ModalBody } from "reactstrap"
+import { Card, CardHeader, CardImg, Modal, ModalBody } from "reactstrap"
+import DisplayComments from './DisplayComments'
+import CommentForm from './CommentForm'
 
 const DisplayImage = props => {
     return (
         <div>
             <Modal isOpen={props.isModalOpen} fullscreen>
                 <ModalBody>
-                    <Card style={{padding: 20}}>
+                    <Card style={{ padding: 20 }}>
                         <CardHeader><button onClick={props.toggleModal} className='btn btn-close mb-1'></button> </CardHeader>
-                        <CardImg style={{maxHeight: "50vh", maxWidth: "50vw"}} src={props.image[0].img} alt={props.image[0].title} />
-                        <CardText>
-                            <hr />
+                        <CardImg style={{ maxWidth: "50vw", aspectRatio: '4 / 3' }} src={props.image[0].img} alt={props.image[0].title} />
+                        <hr />
+                        <div>
                             <h2> {props.image[0].title}</h2>
                             <p>{props.image[0].description}</p>
-                        </CardText>
+                            <DisplayComments comments={props.comments} />
+                            <CommentForm />
+                        </div>
                     </Card>
                 </ModalBody>
             </Modal>

@@ -1,13 +1,17 @@
-import Gallery from './components/Gallery';
 
+import { BrowserRouter } from 'react-router-dom';
+import MainComponent from './components/MainComponent';
+import { Provider } from 'react-redux';
+import myStore from './redux/store';
 
 function App() {
   return (
-    <div className="container">
-      <h1 className='text-center'>Photo Gallery Using React JS</h1>
-      <Gallery />
-    </div>
-  );
+    <Provider store={myStore}>
+      <BrowserRouter>
+        <MainComponent />
+      </BrowserRouter>
+    </Provider>
+  )
 }
 
 export default App;
