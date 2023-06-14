@@ -1,22 +1,28 @@
 import React, { useState } from 'react'
-import DATA from '../data/data'
 import { Card, CardBody, CardColumns, CardImg } from 'reactstrap';
 import DisplayImage from './DisplayImage';
-import COMMENTS from '../data/comments'
+import { connect } from 'react-redux';
 
-const Gallery = () => {
+const mapStateToProps = state => {
+    return {
+        imagesData: state.imagesData,
+        comments: state.comments
+    }
+}
+
+const Gallery = props => {
     const [selectedImg, setSelectedImg] = useState(null);
     const [isModalOpen, setIsModalOpen] = useState(false);
     const [filterBy, setFilterBy] = useState('');
     const [filterComments, setFilterComments] = useState([])
 
     const handleSelectImg = (imgId) => {
-        let img = DATA.filter((img) => {
+        let img = props.imagesData.filter((img) => {
             return img.id === imgId
         })
         setSelectedImg(img);
         setIsModalOpen(true);
-        let filterComments = COMMENTS.filter(comment => comment.imgId === imgId);
+        let filterComments = props.comments.filter(comment => comment.imgId === imgId);
         setFilterComments(filterComments);
     }
 
@@ -28,10 +34,10 @@ const Gallery = () => {
         setFilterBy(categoryItem);
     }
 
-    const filteredItems = filterBy ? DATA.filter(image => image.category === filterBy) : DATA;
+    const filteredItems = filterBy ? props.imagesData.filter(image => image.category === filterBy) : props.imagesData;
 
-    let images = filteredItems.map((image) => {
-        return (
+    let images = filteredItems.map(
+        image =>
             <CardColumns key={image.id} className='col-lg-4 col-md-6 col-sm-10'>
                 <Card style={{ marginBottom: 10, cursor: "pointer" }} onClick={() => handleSelectImg(image.id)}>
                     <CardBody>
@@ -39,9 +45,7 @@ const Gallery = () => {
                     </CardBody>
                 </Card>
             </CardColumns>
-
-        )
-    })
+    )
     return (
         <div className="container">
             <h1 className='text-center'>Photo Gallery Using React JS</h1>
@@ -64,4 +68,4 @@ const Gallery = () => {
     )
 }
 
-export default Gallery
+export default connect(mapStateToProps)(Gallery);

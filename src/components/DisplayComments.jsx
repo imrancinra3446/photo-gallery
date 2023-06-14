@@ -18,8 +18,9 @@ const DisplayComments = (props) => {
                         {comment.author}
                     </CardHeader>
                     <CardBody>
+                        <h5>Rating: {comment.rating}</h5>
                         <p>{comment.comment}</p>
-                        <code>{dateFormat(new Date().toString(), " ddd, dS, mmmm, yyyy, h:MM:ss")} </code>
+                        <code>{dateFormat(comment.date, " ddd, dS, mmmm, yyyy, h:MM:ss")} </code>
                     </CardBody>
                 </Card>
             </div>

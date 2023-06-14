@@ -4,6 +4,7 @@ const COMMENTS = [
         id: 0,
         rating: 3,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Rakib"
     },
     {
@@ -11,6 +12,7 @@ const COMMENTS = [
         id: 1,
         rating: 4,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Riyad"
     },
     {
@@ -18,6 +20,7 @@ const COMMENTS = [
         id: 2,
         rating: 5,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Sagor"
     },
     {
@@ -25,6 +28,7 @@ const COMMENTS = [
         id: 3,
         rating: 3,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Rakib"
     },
     {
@@ -32,6 +36,7 @@ const COMMENTS = [
         id: 4,
         rating: 4,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Riyad"
     },
     {
@@ -39,6 +44,7 @@ const COMMENTS = [
         id: 5,
         rating: 5,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Sagor"
     },
     {
@@ -46,6 +52,7 @@ const COMMENTS = [
         id: 6,
         rating: 3,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Rakib"
     },
     {
@@ -53,6 +60,7 @@ const COMMENTS = [
         id: 7,
         rating: 4,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Riyad"
     },
     {
@@ -60,6 +68,7 @@ const COMMENTS = [
         id: 8,
         rating: 5,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Sagor"
     },
     {
@@ -67,6 +76,7 @@ const COMMENTS = [
         id: 9,
         rating: 3,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Rakib"
     },
     {
@@ -74,6 +84,7 @@ const COMMENTS = [
         id: 10,
         rating: 4,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Riyad"
     },
     {
@@ -81,6 +92,7 @@ const COMMENTS = [
         id: 11,
         rating: 5,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Sagor"
     },
     {
@@ -88,6 +100,7 @@ const COMMENTS = [
         id: 12,
         rating: 3,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Rakib"
     },
     {
@@ -95,6 +108,7 @@ const COMMENTS = [
         id: 13,
         rating: 4,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Riyad"
     },
     {
@@ -102,6 +116,7 @@ const COMMENTS = [
         id: 14,
         rating: 5,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Sagor"
     },
     {
@@ -109,6 +124,7 @@ const COMMENTS = [
         id: 15,
         rating: 3,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Rakib"
     },
     {
@@ -116,6 +132,7 @@ const COMMENTS = [
         id: 16,
         rating: 4,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Riyad"
     },
     {
@@ -123,6 +140,7 @@ const COMMENTS = [
         id: 17,
         rating: 5,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Sagor"
     },
     {
@@ -130,6 +148,7 @@ const COMMENTS = [
         id: 18,
         rating: 3,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Rakib"
     },
     {
@@ -137,6 +156,7 @@ const COMMENTS = [
         id: 19,
         rating: 4,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Riyad"
     },
     {
@@ -144,6 +164,7 @@ const COMMENTS = [
         id: 20,
         rating: 5,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Sagor"
     },
     {
@@ -151,6 +172,7 @@ const COMMENTS = [
         id: 21,
         rating: 3,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Rakib"
     },
     {
@@ -158,6 +180,7 @@ const COMMENTS = [
         id: 22,
         rating: 4,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Riyad"
     },
     {
@@ -165,6 +188,7 @@ const COMMENTS = [
         id: 23,
         rating: 5,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Sagor"
     },
     {
@@ -172,6 +196,7 @@ const COMMENTS = [
         id: 24,
         rating: 3,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Rakib"
     },
     {
@@ -179,6 +204,7 @@ const COMMENTS = [
         id: 25,
         rating: 4,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Riyad"
     },
     {
@@ -186,6 +212,7 @@ const COMMENTS = [
         id: 26,
         rating: 5,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Sagor"
     },
     {
@@ -193,6 +220,7 @@ const COMMENTS = [
         id: 27,
         rating: 3,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Rakib"
     },
     {
@@ -200,6 +228,7 @@ const COMMENTS = [
         id: 28,
         rating: 4,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Riyad"
     },
     {
@@ -207,6 +236,7 @@ const COMMENTS = [
         id: 29,
         rating: 5,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Sagor"
     },
     {
@@ -214,6 +244,7 @@ const COMMENTS = [
         id: 30,
         rating: 3,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Rakib"
     },
     {
@@ -221,6 +252,7 @@ const COMMENTS = [
         id: 31,
         rating: 4,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Riyad"
     },
     {
@@ -228,6 +260,7 @@ const COMMENTS = [
         id: 32,
         rating: 5,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Sagor"
     },
     {
@@ -235,6 +268,7 @@ const COMMENTS = [
         id: 33,
         rating: 3,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Rakib"
     },
     {
@@ -242,6 +276,7 @@ const COMMENTS = [
         id: 34,
         rating: 4,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Riyad"
     },
     {
@@ -249,6 +284,7 @@ const COMMENTS = [
         id: 35,
         rating: 5,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Sagor"
     },
     {
@@ -256,6 +292,7 @@ const COMMENTS = [
         id: 36,
         rating: 3,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Rakib"
     },
     {
@@ -263,6 +300,7 @@ const COMMENTS = [
         id: 37,
         rating: 4,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Riyad"
     },
     {
@@ -270,6 +308,7 @@ const COMMENTS = [
         id: 38,
         rating: 5,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Sagor"
     },
     {
@@ -277,6 +316,7 @@ const COMMENTS = [
         id: 39,
         rating: 3,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Rakib"
     },
     {
@@ -284,6 +324,7 @@ const COMMENTS = [
         id: 40,
         rating: 4,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Riyad"
     },
     {
@@ -291,6 +332,7 @@ const COMMENTS = [
         id: 41,
         rating: 5,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Sagor"
     },
     {
@@ -298,6 +340,7 @@ const COMMENTS = [
         id: 42,
         rating: 3,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Rakib"
     },
     {
@@ -305,6 +348,7 @@ const COMMENTS = [
         id: 43,
         rating: 4,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Riyad"
     },
     {
@@ -312,6 +356,7 @@ const COMMENTS = [
         id: 44,
         rating: 5,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Sagor"
     },
     {
@@ -319,6 +364,7 @@ const COMMENTS = [
         id: 45,
         rating: 3,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Rakib"
     },
     {
@@ -326,6 +372,7 @@ const COMMENTS = [
         id: 46,
         rating: 4,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Riyad"
     },
     {
@@ -333,6 +380,7 @@ const COMMENTS = [
         id: 47,
         rating: 5,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Sagor"
     },
     {
@@ -340,6 +388,7 @@ const COMMENTS = [
         id: 48,
         rating: 3,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Rakib"
     },
     {
@@ -347,6 +396,7 @@ const COMMENTS = [
         id: 49,
         rating: 4,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Riyad"
     },
     {
@@ -354,6 +404,7 @@ const COMMENTS = [
         id: 50,
         rating: 5,
         comment: "lorem ipsum dolor sit am et des preferences et des rep preceding des rep",
+        date: "Wed Jun 14 2023 23:54:13 GMT+0600 (Bangladesh Standard Time)",
         author: "Sagor"
     },
 

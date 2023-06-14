@@ -16,7 +16,7 @@ const DisplayImage = props => {
                             <h2> {props.image[0].title}</h2>
                             <p>{props.image[0].description}</p>
                             <DisplayComments comments={props.comments} />
-                            <CommentForm />
+                            <CommentForm imgId={props.image[0].id} />
                         </div>
                     </Card>
                 </ModalBody>
